@@ -1,0 +1,255 @@
+<svg width="1200" height="430" viewBox="0 0 1200 430"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080014"/>
+      <stop offset="25%" stop-color="#1a0633"/>
+      <stop offset="50%" stop-color="#4c1d95"/>
+      <stop offset="75%" stop-color="#86198f"/>
+      <stop offset="100%" stop-color="#14001f"/>
+    </linearGradient>
+
+    <radialGradient id="nebula">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity=".45"/>
+      <stop offset="45%" stop-color="#7c3aed" stop-opacity=".2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="name" x1="0" x2="1">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".3" stop-color="#e9d5ff"/>
+      <stop offset=".6" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="430" fill="url(#bg)"/>
+
+  <!-- Nebula -->
+  <ellipse cx="250" cy="120" rx="430" ry="220"
+           fill="url(#nebula)" filter="url(#softGlow)">
+    <animate attributeName="rx"
+             values="430;500;430"
+             dur="8s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <ellipse cx="950" cy="300" rx="450" ry="230"
+           fill="url(#nebula)" filter="url(#softGlow)">
+    <animate attributeName="rx"
+             values="450;520;450"
+             dur="10s"
+             repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Stars -->
+  <g fill="#ffffff">
+
+    <circle cx="90" cy="80" r="2">
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="170" cy="250" r="2">
+      <animate attributeName="opacity"
+               values="1;.2;1"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="300" cy="70" r="1.5">
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="2.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="420" cy="330" r="2">
+      <animate attributeName="opacity"
+               values=".1;1;.1"
+               dur="3.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="760" cy="90" r="2">
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="2.2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="900" cy="150" r="1.5">
+      <animate attributeName="opacity"
+               values="1;.2;1"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1050" cy="80" r="2">
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="2.7s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1100" cy="330" r="2">
+      <animate attributeName="opacity"
+               values=".1;1;.1"
+               dur="3s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+  <!-- Decorative orbit -->
+  <ellipse cx="600" cy="205"
+           rx="470"
+           ry="125"
+           fill="none"
+           stroke="#c084fc"
+           stroke-opacity=".18"
+           stroke-width="1"/>
+
+  <ellipse cx="600" cy="205"
+           rx="390"
+           ry="95"
+           fill="none"
+           stroke="#f0abfc"
+           stroke-opacity=".12"
+           stroke-width="1"
+           transform="rotate(-12 600 205)"/>
+
+  <!-- Shooting star -->
+  <g filter="url(#glow)">
+    <line x1="-100" y1="60" x2="0" y2="20"
+          stroke="#ffffff"
+          stroke-width="2">
+      <animate attributeName="x1"
+               values="-150;1200"
+               dur="7s"
+               repeatCount="indefinite"/>
+      <animate attributeName="x2"
+               values="-50;1300"
+               dur="7s"
+               repeatCount="indefinite"/>
+      <animate attributeName="y1"
+               values="80;10"
+               dur="7s"
+               repeatCount="indefinite"/>
+      <animate attributeName="y2"
+               values="40;-30"
+               dur="7s"
+               repeatCount="indefinite"/>
+    </line>
+  </g>
+
+  <!-- Main glow -->
+  <text x="600"
+        y="190"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54"
+        font-weight="700"
+        fill="#c084fc"
+        opacity=".5"
+        filter="url(#glow)">
+    Hello! My name is
+  </text>
+
+  <text x="600"
+        y="190"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="54"
+        font-weight="700"
+        fill="url(#name)">
+    Hello! My name is
+  </text>
+
+  <text x="600"
+        y="255"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="52"
+        font-weight="700"
+        fill="#ffffff"
+        filter="url(#glow)">
+    Rukhshona Mirzarahmatova
+  </text>
+
+  <text x="600"
+        y="255"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="52"
+        font-weight="700"
+        fill="url(#name)">
+    Rukhshona Mirzarahmatova
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600"
+        y="310"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="18"
+        fill="#e9d5ff">
+    Full Stack Developer • Python • JavaScript • TypeScript
+  </text>
+
+  <!-- Sparkles -->
+  <g fill="#ffffff">
+
+    <text x="175" y="170" font-size="28">
+      ✦
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="990" y="220" font-size="34">
+      ✧
+      <animate attributeName="opacity"
+               values="1;.2;1"
+               dur="2.7s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="260" y="330" font-size="20">
+      ✨
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="930" y="330" font-size="20">
+      ✨
+      <animate attributeName="opacity"
+               values="1;.2;1"
+               dur="2.4s"
+               repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+</svg>
