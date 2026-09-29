@@ -1,0 +1,81 @@
+<svg width="1200" height="120"
+     viewBox="0 0 1200 120"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="line" x1="0" x2="1">
+      <stop stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset=".2" stop-color="#c084fc"/>
+      <stop offset=".5" stop-color="#ffffff"/>
+      <stop offset=".8" stop-color="#e879f9"/>
+      <stop offset="1" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <line x1="80" y1="60"
+        x2="1120"
+        y2="60"
+        stroke="url(#line)"
+        stroke-width="2"
+        filter="url(#glow)">
+    <animate attributeName="stroke-dasharray"
+             values="10 20;80 20;10 20"
+             dur="4s"
+             repeatCount="indefinite"/>
+  </line>
+
+  <g fill="#ffffff" filter="url(#glow)">
+
+    <text x="180" y="68" font-size="25">
+      ✦
+      <animate attributeName="opacity"
+               values=".1;1;.1"
+               dur="1.5s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="340" y="68" font-size="18">
+      ✧
+      <animate attributeName="opacity"
+               values="1;.1;1"
+               dur="2.1s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="600" y="70" font-size="30">
+      ✨
+      <animate attributeName="opacity"
+               values=".2;1;.2"
+               dur="1.3s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="850" y="68" font-size="18">
+      ✧
+      <animate attributeName="opacity"
+               values="1;.1;1"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </text>
+
+    <text x="1020" y="68" font-size="25">
+      ✦
+      <animate attributeName="opacity"
+               values=".1;1;.1"
+               dur="1.7s"
+               repeatCount="indefinite"/>
+    </text>
+
+  </g>
+
+</svg>
