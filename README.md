@@ -6,7 +6,8 @@
   <img
     src="https://capsule-render.vercel.app/api?type=waving&color=0:12002f,20:2e1065,40:5b21b6,60:7c3aed,80:c026d3,100:f5d0fe&height=230&section=header&text=Hello!%20My%20name%20is%20Rukhshona%20Mirzarahmatova&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=38"
     width="100%"
-    alt="Hello! My name is Rukhshona Mirzarahmatova"
+    alt="Hello! My name is 
+    Rukhshona Mirzarahmatova"
   />
 </p>
 
