@@ -1,0 +1,118 @@
+<svg width="1000" height="400"
+     viewBox="0 0 1000 400"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#090014"/>
+      <stop offset=".5" stop-color="#1e0b36"/>
+      <stop offset="1" stop-color="#090014"/>
+    </linearGradient>
+
+    <linearGradient id="purple" x1="0" x2="1">
+      <stop stop-color="#7c3aed"/>
+      <stop offset=".5" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect x="20" y="20"
+        width="960"
+        height="360"
+        rx="22"
+        fill="url(#terminalBg)"
+        stroke="#8b5cf6"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+  <!-- Window controls -->
+
+  <circle cx="55" cy="55" r="7" fill="#f0abfc"/>
+  <circle cx="80" cy="55" r="7" fill="#c084fc"/>
+  <circle cx="105" cy="55" r="7" fill="#8b5cf6"/>
+
+  <text x="140"
+        y="62"
+        fill="#c4b5fd"
+        font-family="monospace"
+        font-size="15">
+    rukhshona@github ~
+  </text>
+
+  <!-- Commands -->
+
+  <text x="55" y="110"
+        fill="#e9d5ff"
+        font-family="monospace"
+        font-size="19">
+    $ whoami
+  </text>
+
+  <text x="55" y="140"
+        fill="#c084fc"
+        font-family="monospace"
+        font-size="19">
+    Rukhshona Mirzarahmatova
+  </text>
+
+  <text x="55" y="190"
+        fill="#e9d5ff"
+        font-family="monospace"
+        font-size="19">
+    $ skills --show
+  </text>
+
+  <text x="55" y="220"
+        fill="#d8b4fe"
+        font-family="monospace"
+        font-size="17">
+    Python • JavaScript • TypeScript
+  </text>
+
+  <text x="55" y="250"
+        fill="#d8b4fe"
+        font-family="monospace"
+        font-size="17">
+    React • Angular • Node.js • Django
+  </text>
+
+  <text x="55" y="280"
+        fill="#d8b4fe"
+        font-family="monospace"
+        font-size="17">
+    Docker • Kubernetes • Azure • GitHub Actions
+  </text>
+
+  <text x="55" y="330"
+        fill="#ffffff"
+        font-family="monospace"
+        font-size="18">
+    $ echo "building something beautiful..."
+  </text>
+
+  <!-- blinking cursor -->
+
+  <rect x="525"
+        y="314"
+        width="10"
+        height="21"
+        fill="#c084fc">
+
+    <animate attributeName="opacity"
+             values="1;0;1"
+             dur="1s"
+             repeatCount="indefinite"/>
+
+  </rect>
+
+</svg>
