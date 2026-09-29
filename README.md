@@ -1,4 +1,3 @@
-## Hi there 👋
 <p align="center">
   <a href="https://github.com/mashinastaraya">
     <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=2ea043&fontSize=54&height=90&width=420&text=Hello!%20I'm" alt="Hello! I&#39;m" />
@@ -73,5 +72,3 @@
 
 ---
 <p align="center"><i>⭐️ From <a href="https://github.com/mashinastaraya">mashinastaraya</a></i></p>
-
-
