@@ -1,0 +1,117 @@
+<svg width="1100" height="300"
+     viewBox="0 0 1100 300"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0" x2="1">
+      <stop stop-color="#12001f"/>
+      <stop offset=".5" stop-color="#32105c"/>
+      <stop offset="1" stop-color="#160020"/>
+    </linearGradient>
+
+    <linearGradient id="border">
+      <stop stop-color="#7c3aed"/>
+      <stop offset=".5" stop-color="#f0abfc"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect x="15" y="15"
+        width="1070"
+        height="270"
+        rx="30"
+        fill="url(#bg)"
+        stroke="url(#border)"
+        stroke-width="2"
+        filter="url(#glow)"/>
+
+  <text x="550"
+        y="65"
+        text-anchor="middle"
+        font-family="Georgia"
+        font-size="30"
+        fill="#ffffff">
+    ✦ Technologies I Work With ✦
+  </text>
+
+  <g font-family="monospace"
+     font-size="17"
+     text-anchor="middle">
+
+    <rect x="80" y="100" width="190" height="50" rx="25"
+          fill="#7c3aed" opacity=".2"
+          stroke="#c084fc"/>
+
+    <text x="175" y="132" fill="#e9d5ff">
+      Python
+    </text>
+
+    <rect x="300" y="100" width="190" height="50" rx="25"
+          fill="#7c3aed" opacity=".2"
+          stroke="#c084fc"/>
+
+    <text x="395" y="132" fill="#e9d5ff">
+      JavaScript
+    </text>
+
+    <rect x="520" y="100" width="190" height="50" rx="25"
+          fill="#7c3aed" opacity=".2"
+          stroke="#c084fc"/>
+
+    <text x="615" y="132" fill="#e9d5ff">
+      TypeScript
+    </text>
+
+    <rect x="740" y="100" width="190" height="50" rx="25"
+          fill="#7c3aed" opacity=".2"
+          stroke="#c084fc"/>
+
+    <text x="835" y="132" fill="#e9d5ff">
+      Angular
+    </text>
+
+  </g>
+
+  <g fill="#ffffff">
+
+    <circle cx="100" cy="220" r="2">
+      <animate attributeName="cy"
+               values="220;205;220"
+               dur="2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="300" cy="220" r="2">
+      <animate attributeName="cy"
+               values="205;220;205"
+               dur="2.5s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="600" cy="220" r="2">
+      <animate attributeName="cy"
+               values="220;200;220"
+               dur="1.8s"
+               repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="900" cy="220" r="2">
+      <animate attributeName="cy"
+               values="200;220;200"
+               dur="2.2s"
+               repeatCount="indefinite"/>
+    </circle>
+
+  </g>
+
+</svg>
