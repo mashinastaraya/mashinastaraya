@@ -1,127 +1,90 @@
-<!-- ========================= -->
-<!--        ANIMATED HEADER     -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                    GLITTER HEADER                     -->
+<!-- ====================================================== -->
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=190&section=header&text=Hello!%20I'm&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=38"
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:12002f,20:2e1065,40:5b21b6,60:7c3aed,80:c026d3,100:f5d0fe&height=230&section=header&text=Hello!%20My%20name%20is%20Rukhshona%20Mirzarahmatova&fontSize=38&fontColor=ffffff&animation=twinkling&fontAlignY=38"
     width="100%"
-    alt="Purple animated header"
+    alt="Hello! My name is Rukhshona Mirzarahmatova"
   />
 </p>
 
-<p align="center">
-  <a href="https://github.com/mashinastaraya">
-    <img
-      src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=C084FC&center=true&vCenter=true&width=800&height=70&lines=Full+Stack+Developer+in+progress;Python+%7C+JavaScript+%7C+TypeScript;Building+cool+things+with+code;Welcome+to+my+little+corner+of+GitHub+%F0%9F%90%88"
-      alt="Animated typing introduction"
-    />
-  </a>
-</p>
+<!-- GLITTER -->
 
 <p align="center">
-  <img
-    src="https://raw.githubusercontent.com/ncase/ncase.github.io/master/cat.gif"
-    width="170"
-    alt="Animated cat"
-  />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img
-    src="https://raw.githubusercontent.com/bheinzerling/bunny/master/bunny.gif"
-    width="170"
-    alt="Animated bunny"
-  />
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img
-    src="https://github.com/cszn/FFDNet/raw/master/utilities/figs/Frog.gif"
-    width="170"
-    alt="Animated frog"
-  />
+  ✦ ˚₊‧ ✧ ✨ ⋆｡°✩ ✦ ✧ ⋆｡°✩ ✨ ✧ ‧₊˚ ✦
 </p>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12,14,16,18,20&height=3&width=900"
-    width="90%"
-    alt="Purple gradient divider"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=E9D5FF&center=true&vCenter=true&width=900&height=80&lines=Rukhshona+Mirzarahmatova;Full+Stack+Developer+in+progress;Python+%7C+JavaScript+%7C+TypeScript;Building+beautiful+things+with+code;Turning+ideas+into+reality"
+    alt="Animated introduction"
+  />
+</p>
+
+<p align="center">
+  ✧･ﾟ: *✧･ﾟ:*  ✨  *:･ﾟ✧*:･ﾟ✧
+</p>
+
+<p align="center">
+  ⊹₊ ⋆ ✦ ｡°✩ ⋆｡°✩ ✦ ⋆ ₊⊹
+</p>
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:3b0764,30:7c3aed,55:c026d3,80:e879f9,100:f5d0fe&height=5&width=1000"
+    width="92%"
+    alt="Glowing gradient divider"
   />
 </p>
 
 <br>
 
-<!-- ========================= -->
-<!--          ABOUT ME         -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                       ABOUT ME                        -->
+<!-- ====================================================== -->
 
 <h2 align="center">
-  💜 About Me 💜
+  ✦ About Me ✦
 </h2>
 
 <p align="center">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=700&color=A78BFA&center=true&vCenter=true&width=700&height=90&lines=%F0%9F%94%AD+Building+and+learning+every+day;%F0%9F%A4%96+Working+on+bots+for+a+company;%F0%9F%8C%B1+Currently+learning+Python%2C+JS+%26+TS"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=2600&pause=700&color=C4B5FD&center=true&vCenter=true&width=760&height=90&lines=Building+and+learning+every+day;Working+on+bots+for+a+company;Currently+learning+Python%2C+JS+%26+TS"
     alt="About me animation"
   />
 </p>
 
 <div align="center">
 
-🌌 &nbsp; I'm currently working on **bots for a company**  
-🌱 &nbsp; I'm currently learning **#Python #JS #TS**  
-💻 &nbsp; I love turning ideas into **working software**  
-🐈 &nbsp; Code, coffee, cats &amp; controlled chaos
+🔭 &nbsp; I'm currently working on **bots for a company**
+
+🌱 &nbsp; I'm currently learning **#Python #JS #TS**
+
+💻 &nbsp; I love turning ideas into **working software**
+
+✨ &nbsp; Always learning, experimenting and building
 
 </div>
 
 <br>
 
-<!-- ========================= -->
-<!--       LITTLE ANIMALS      -->
-<!-- ========================= -->
+<p align="center">
+  ✦ ✧ ⋆｡°✩ ✨ ✩°｡⋆ ✧ ✦
+</p>
+
+<!-- ====================================================== -->
+<!--                     TECH STACK                        -->
+<!-- ====================================================== -->
 
 <h2 align="center">
-  🐾 My Tiny Coding Squad 🐾
+  ✦ 🛠️ Tech Stack ✦
 </h2>
 
 <p align="center">
-  <i>They don't write code... but they definitely supervise it.</i>
+  ✧ ✨ ⋆｡°✩ ✦ ✧ ✦ ✩°｡⋆ ✨ ✧
 </p>
-
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/ncase/ncase.github.io/master/cat.gif"
-    width="120"
-    alt="Cat animation"
-  />
-  <img
-    src="https://raw.githubusercontent.com/bheinzerling/bunny/master/bunny.gif"
-    width="120"
-    alt="Bunny animation"
-  />
-  <img
-    src="https://github.com/cszn/FFDNet/raw/master/utilities/figs/Frog.gif"
-    width="120"
-    alt="Frog animation"
-  />
-</p>
-
-<p align="center">
-  <code>🐈 = Debugger</code>
-  &nbsp;&nbsp;
-  <code>🐇 = Tester</code>
-  &nbsp;&nbsp;
-  <code>🐸 = Senior Reviewer</code>
-</p>
-
-<br>
-
-<!-- ========================= -->
-<!--        TECH STACK         -->
-<!-- ========================= -->
-
-<h2 align="center">
-  🛠️ Tech Stack
-</h2>
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -154,16 +117,19 @@
 
 <br>
 
-<!-- ========================= -->
-<!--       CONNECT WITH ME     -->
-<!-- ========================= -->
+<p align="center">
+  ✦ ✧ ✨ ⋆｡°✩ ⋆｡°✩ ✨ ✧ ✦
+</p>
+
+<!-- ====================================================== -->
+<!--                   CONNECT WITH ME                     -->
+<!-- ====================================================== -->
 
 <h2 align="center">
-  🔗 Connect With Me
+  ✦ 🔗 Connect With Me ✦
 </h2>
 
 <p align="center">
-
   <a href="https://www.linkedin.com/in/rukhshona-mirzarahmatova-12922632b/">
     <img src="https://img.shields.io/badge/LinkedIn-8B5CF6?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
@@ -187,59 +153,62 @@
   <a href="mailto:ruhshonamirzarahmatova238@gmail.com">
     <img src="https://img.shields.io/badge/Email-A855F7?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-
 </p>
 
 <br>
 
-<!-- ========================= -->
-<!--        GITHUB STATS       -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                    GITHUB STATS                       -->
+<!-- ====================================================== -->
 
 <h2 align="center">
-  📊 GitHub Stats
+  ✦ 📊 GitHub Stats ✦
 </h2>
 
 <p align="center">
   <img
     height="170"
-    src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=mashinastaraya&show_icons=true&theme=tokyonight&title_color=C084FC&icon_color=A855F7&text_color=D8B4FE&border_color=7C3AED&bg_color=0D0221&count_private=true"
+    src="https://github-readme-stats-five-sigma-99.vercel.app/api?username=mashinastaraya&show_icons=true&theme=tokyonight&title_color=C084FC&icon_color=A855F7&text_color=E9D5FF&border_color=7C3AED&bg_color=0D0221&count_private=true"
     alt="GitHub Stats"
   />
 
   <img
     height="170"
-    src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=mashinastaraya&layout=compact&theme=tokyonight&title_color=C084FC&icon_color=A855F7&text_color=D8B4FE&border_color=7C3AED&bg_color=0D0221&langs_count=8"
+    src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=mashinastaraya&layout=compact&theme=tokyonight&title_color=C084FC&icon_color=A855F7&text_color=E9D5FF&border_color=7C3AED&bg_color=0D0221&langs_count=8"
     alt="Top Languages"
   />
 </p>
 
 <br>
 
-<!-- ========================= -->
-<!--     CONTRIBUTION GRAPH    -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                 CONTRIBUTION GRAPH                    -->
+<!-- ====================================================== -->
 
 <h2 align="center">
-  📈 Contribution Graph
+  ✦ 📈 Contribution Graph ✦
 </h2>
 
 <p align="center">
   <img
     width="100%"
-    src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=mashinastaraya&bg_color=0D0221&color=C084FC&line=A855F7&point=F5D0FE&area=true&hide_border=true&custom_title=Rukhshona's%20Contribution%20Journey"
+    src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=mashinastaraya&bg_color=0D0221&color=D8B4FE&line=A855F7&point=F5D0FE&area=true&hide_border=true&custom_title=Rukhshona's%20Contribution%20Journey"
     alt="Contribution Graph"
   />
 </p>
 
 <br>
 
-<!-- ========================= -->
-<!--         DEV QUOTE         -->
-<!-- ========================= -->
+<p align="center">
+  ✧ ✦ ✨ ⋆｡°✩ ✦ ✧ ✦ ✩°｡⋆ ✨ ✦ ✧
+</p>
+
+<!-- ====================================================== -->
+<!--                      DEV QUOTE                        -->
+<!-- ====================================================== -->
 
 <h2 align="center">
-  💭 Dev Quote
+  ✦ 💭 Dev Quote ✦
 </h2>
 
 <p align="center">
@@ -251,30 +220,44 @@
 
 <br>
 
-<!-- ========================= -->
-<!--       ANIMATED FOOTER     -->
-<!-- ========================= -->
+<!-- ====================================================== -->
+<!--                  GLITTER FOOTER                       -->
+<!-- ====================================================== -->
 
 <p align="center">
-
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=1000&color=C084FC&center=true&vCenter=true&width=750&height=50&lines=Thanks+for+stopping+by+%F0%9F%92%9C;Keep+coding+%7C+keep+learning+%7C+keep+building+%F0%9F%9A%80;And+don't+forget+to+feed+the+cat+%F0%9F%90%88"
-    alt="Animated footer message"
-  />
-
+  ✦ ˚₊‧ ✧ ✨ ✧ ‧₊˚ ✦
 </p>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=130&section=footer&animation=twinkling"
-    width="100%"
-    alt="Purple animated footer"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2600&pause=900&color=E9D5FF&center=true&vCenter=true&width=850&height=65&lines=Thanks+for+visiting+my+profile;Keep+coding.+Keep+learning.+Keep+creating.;See+you+among+the+stars."
+    alt="Animated footer message"
   />
+</p>
+
+<p align="center">
+  ✧ ⋆｡°✩ ✨ ✦ ✨ ✩°｡⋆ ✧
+</p>
+
+<p align="center">
+  ⊹₊ ⋆ ✦ ｡°✩ ⋆｡°✩ ✦ ⋆ ₊⊹
+</p>
+
+<p align="center">
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:12002f,20:2e1065,40:5b21b6,60:7c3aed,80:c026d3,100:f5d0fe&height=170&section=footer&animation=twinkling"
+    width="100%"
+    alt="Glowing animated footer"
+  />
+</p>
+
+<p align="center">
+  ✦ ✧ ✨ ⋆｡°✩ ✦ ✧ ⋆｡°✩ ✨ ✧ ‧₊˚ ✦
 </p>
 
 <p align="center">
   <i>
-    ⭐️ From
+    ⭐ From
     <a href="https://github.com/mashinastaraya">
       mashinastaraya
     </a>
